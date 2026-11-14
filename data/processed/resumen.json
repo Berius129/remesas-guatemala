@@ -1,0 +1,23 @@
+{
+  "ultimo_mes": "2026-10",
+  "acumulado_anio_usd": 22484932816.36,
+  "acumulado_anio_anterior_usd": 21358366328.100002,
+  "crecimiento_acumulado": 0.052745910944407726,
+  "ultimo_anio_completo": 2025,
+  "remesas_ultimo_anio_usd": 25530232241.620003,
+  "pct_pib_ultimo_anio": 0.2075113217737984,
+  "pct_consumo_privado_ultimo_anio": 0.23802259486595528,
+  "correlacion_crecimiento_2012_2024": 0.2253804758996727,
+  "modelo_elegido": "Holt-Winters amortiguado",
+  "mape_modelo_elegido": 0.06463685192548665,
+  "pronostico_12m": {
+    "total": 28733667814.989315,
+    "p10": 27286769077.855846,
+    "p90": 31427146414.230465,
+    "min": 26730310740.228737,
+    "max": 31458771488.316414
+  },
+  "pronostico_desde": "2026-11",
+  "pronostico_hasta": "2027-10",
+  "remesas_12m_actual_usd": 26656798729.88
+}
