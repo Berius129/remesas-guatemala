@@ -38,7 +38,7 @@ Las remesas familiares son la principal fuente de divisas de Guatemala. Este pro
 ### 5. Pronóstico: alrededor de US$28,700 millones de noviembre 2026 a octubre 2027
 ![Pronóstico](reports/figuras/05_pronostico.png)
 
-- El pronóstico es **US$28,700 millones**, 7.8 % más que los 12 meses anteriores. El rango probable va de **US$27,300 a US$31,400 millones**, calculado con los percentiles 10-90 de los errores históricos del modelo.
+- El pronóstico es **US$28,700 millones**, 7.8 % más que los 12 meses anteriores. El rango probable va de **US$27,400 a US$31,400 millones**, calculado con los percentiles 10-90 de los errores históricos del modelo.
 - El modelo asume que el crecimiento se sigue frenando, de acuerdo con la desaceleración que se ve en 2026.
 
 ## Cómo se eligió el modelo
@@ -49,7 +49,7 @@ Comparé 5 modelos con **validación de origen móvil**. Para cada uno de 10 per
 
 | Modelo | Error mensual promedio (MAPE) | Error promedio del total anual | Peor error del total anual |
 |---|---|---|---|
-| **Holt-Winters con tendencia amortiguada** | **6.5 %** | **4.8 %** | **8.7 %** |
+| **Holt-Winters con tendencia amortiguada** | **6.5 %** | **5.1 %** | **8.7 %** |
 | SARIMA (0,1,1)(0,1,1)₁₂ | 7.1 % | 5.3 % | 17.1 % |
 | SARIMA (1,1,1)(0,1,1)₁₂ | 7.1 % | 5.6 % | 15.8 % |
 | Ingenuo con tendencia (mismo mes del año anterior × crecimiento reciente) | 9.1 % | 7.5 % | 20.4 % |
